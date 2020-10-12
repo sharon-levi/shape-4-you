@@ -1,0 +1,25 @@
+
+.recommendation {
+  width: 200px;
+	height: 250px;
+	min-width: 100%;
+	margin-bottom: 30px;
+	border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+  -webkit-box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.15);
+  	box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.15);
+ 
+}
+.recommendation h5 {
+ 	font-size: 20px;
+	color: black;
+	display: inline-block;
+	margin-right: 8px;
+ 
+}
+
+.name {
+   color: #fd4d36;
+}

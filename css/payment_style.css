@@ -1,0 +1,47 @@
+body{
+    background-image:url(../img/signup/payment-background.jpg);
+     background-repeat: no-repeat;
+	 background-size: 100%;
+}
+
+p{
+     margin-right:100px;
+}
+#frm{
+    border:solid grey 2px;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    background:white;
+   
+}
+#btn
+{
+    color:#fff;
+    background:#337ab7;
+    padding:5px;
+    margin-right:69px;
+}
+
+.form {
+    color: #fff;
+}
+
+.update-btn {
+    border-bottom: 3px solid #eb3c5a;
+    border-top: 3px solid #f67831;
+    border-left: 3px solid #eb3c5a;
+    border-right: 3px solid #f67831;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 98%;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.return-home{
+    
+}

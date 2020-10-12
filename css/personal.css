@@ -1,0 +1,172 @@
+* {box-sizing: border-box}
+
+/* different style from the generic one */
+
+.set-bg {
+    background-position-y: 65% !important;
+}
+
+.breadcrumb-text h2 {
+    text-align: center !important;
+}
+
+/* end */
+
+/*********** start of general style  ***************/
+
+h1, h2, h3, h4, h5, p{  
+    text-align: right;
+}
+
+a:hover {
+  color: #eb3c5a;
+}
+
+fieldset {
+    border: solid 1px;
+    margin-bottom: 5%;
+    padding: revert;
+}
+
+legend {
+    width: auto;
+    text-align: center;
+}
+
+.test {
+    padding-bottom: 56%;
+}
+
+/*********** end of general style  ***************/
+
+/*********** Navigation bar for personal area ***************/
+
+/* Style the personalTab */
+
+.personalTab {
+    float: right;
+    background-color: white;
+    background-image: url(../img/personal_area/motivation_quote_tab.jpg);
+    width: 30%;
+    height: 1000px;
+    background-position-y: 50%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* buttons */
+
+.personalTab button {
+  display: block;
+  background-color: inherit;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: right;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.personalTab button:hover {
+  background: linear-gradient(to right, #eb3c5a, #f67831);
+  color: black;
+}
+
+/* Create an active/current "personalTab button" class */
+.personalTab button.active {
+  background: linear-gradient(to right, #eb3c5a, #f67831);
+  color: white;
+}
+
+/* Style the personalTab content */
+.personalTabcontent {
+  float: right;
+  padding: 0px 12px;
+  width: 70%;
+  border-right: none;
+ 
+  
+}
+
+/*********** End of navigation bar for personal area ***************/
+
+/*********** start of details page ***************/
+.update-btn {
+    border-bottom: 3px solid #eb3c5a;
+    border-top: 3px solid #f67831;
+    border-left: 3px solid #eb3c5a;
+    border-right: 3px solid #f67831;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 98%;
+    background: white;
+    padding: 5px;
+    margin: auto;
+}
+
+.mini-set {
+    float: right;
+    width: 44%;
+    margin-right: 4%;
+}
+
+/*********** end of details page ***************/
+
+/*********** start of diet page ***************/
+.filter-btn {
+    border-bottom: 3px solid #eb3c5a;
+    border-top: 3px solid #f67831;
+    border-left: 3px solid #eb3c5a;
+    border-right: 3px solid #f67831;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    margin-right: 6px;
+}
+
+.filter-field {
+    width: 20%;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: -39px;
+}
+
+/*********** end of diet page ***************/
+
+/******** start of tables **********/
+
+.personalDataHeading {
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    color: white;
+	text-align: center;
+	word-wrap: break-word !important;
+}
+
+.personalDataTable {
+	border-collapse: collapse;
+	padding: 0px 12px;
+	text-align: center;
+	table-layout: fixed !important;
+}
+
+.personalDataTableCell {
+	border: 1px solid #cba;
+	padding: 0px 12px;
+	text-align: center;
+	max-width: 135px;
+	word-wrap: break-word !important;
+}
+
+.my-classes {
+    padding-left: 12%;
+    padding-bottom: 8%;
+}
+
+/******** end of tables **********/

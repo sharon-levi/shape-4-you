@@ -1,0 +1,27 @@
+.update-btn {
+    border-bottom: 3px solid #eb3c5a;
+    border-top: 3px solid #f67831;
+    border-left: 3px solid #eb3c5a;
+    border-right: 3px solid #f67831;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 98%;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+fieldset {
+    width: 60%;
+    margin: auto;
+    border: solid 1px;
+    margin-bottom: 5%;
+    padding: revert;
+}
+
+legend {
+    width: auto;
+    text-align: center;
+}
